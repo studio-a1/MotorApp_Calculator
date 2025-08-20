@@ -1,5 +1,5 @@
 import React from 'react';
-import Calculator from './components/Calculator';
+import Calculator from './components/Calculator.tsx';
 
 const CarIcon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 sm:h-9 sm:w-9 mr-3 inline-block" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
@@ -22,7 +22,7 @@ function App() {
           MotorApp_Calculator
         </h1>
         <p className="text-slate-400">
-          Sua ferramenta para calcular a viabilidade de viagens, corridas, entregas e rolézinhos em geral.
+          Sua ferramenta para calcular a viabilidade de corridas e entregas.
         </p>
       </header>
       <main className="max-w-5xl mx-auto">
