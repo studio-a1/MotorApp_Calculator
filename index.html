@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
   <head>
@@ -5,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>MotorApp_Calculator</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Add Babel for in-browser JSX/TSX transpilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script type="importmap">
       {
         "imports": {
@@ -49,10 +52,10 @@
         }
       }
     </style>
-  <link rel="stylesheet" href="/index.css">
-</head>
+  </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="./index.tsx"></script>
+    <!-- Change script type to text/babel for transpilation -->
+    <script type="text/babel" data-type="module" src="./index.tsx"></script>
   </body>
 </html>
