@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MotorApp_Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+          "react/": "https://esm.sh/react@^19.1.1/",
+          "react": "https://esm.sh/react@^19.1.1"
+        }
+      }
+    </script>
+    <style>
+      @media print {
+        body {
+          background-image: none !important;
+          background-color: #ffffff !important;
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+        .print\:hidden {
+          display: none !important;
+        }
+        .print\:block {
+          display: block !important;
+        }
+        .print\:text-black {
+            color: #000 !important;
+        }
+        .print\:bg-white {
+            background-color: #fff !important;
+        }
+        .print\:shadow-none {
+            box-shadow: none !important;
+        }
+        /* Fix for invisible text on print */
+        #results-section, #results-section * {
+            color: #000000 !important;
+            background-color: #ffffff !important;
+            border-color: #dddddd !important;
+        }
+         #results-section .rounded-xl {
+            box-shadow: none !important;
+            border: 1px solid #ddd !important;
+        }
+      }
+    </style>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

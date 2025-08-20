@@ -1,0 +1,5 @@
+{
+  "name": "Ride-Share Profit Calculator",
+  "description": "A calculator for ride-share and delivery drivers to determine the profitability of a trip by considering vehicle expenses, fuel costs, and earnings. Applicable to both cars and motorcycles, it helps drivers make informed decisions.",
+  "requestFramePermissions": []
+}
