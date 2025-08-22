@@ -1,5 +1,5 @@
 import React, { useState, useMemo, useCallback } from 'react';
-import type { FormData, CalculationResults } from '../types.ts';
+import type { FormData, CalculationResults } from '../types';
 
 // --- HELPER UI COMPONENTS (Defined outside main component to prevent re-creation on re-render) ---
 
