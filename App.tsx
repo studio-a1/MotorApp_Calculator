@@ -23,7 +23,7 @@ function App() {
           MotorApp_Calculator
         </h1>
         <p className="text-slate-400">
-          Sua ferramenta para calcular a viabilidade de viagens, corridas, entregas e rolés.
+          Uma ferramenta para calcular a viabilidade de viagens, corridas, entregas e rolés.
         </p>
       </header>
       <main className="max-w-5xl mx-auto">
